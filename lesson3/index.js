@@ -29,7 +29,7 @@ if (begin == "ECMAScript") {
 
 let result;
 let a = 1;
-let b = 3;
+let b = 1;
 
 a + b < 4 ? console.log((result = "below")) : console.log((result = "Over"));
 
