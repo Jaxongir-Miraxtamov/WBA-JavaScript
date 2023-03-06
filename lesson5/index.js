@@ -1,5 +1,7 @@
 // exam 1
 
+// Yangi Functionob'ekt yaratadi. Konstruktorni to'g'ridan-to'g'ri chaqirish funksiyalarni dinamik ravishda yaratishi mumkin, lekin xavfsizlik va shunga o'xshash (lekin unchalik ahamiyatsiz) ishlash muammolaridan aziyat chekadi eval().
+
 for (let i = 0; i < 3; i++) {
   console.log(`number ${i}!`);
 }
@@ -27,6 +29,8 @@ function checkAge(age) {
   }
   return confirm("Did parents allow you");
 }
+
+// Funktsiya operator bilan konstruktor sifatida foydalanilganda ishlatiladi new. U yangi ob'ektning prototipiga aylanadi.
 
 // exam4
 function min(a = 0, b = 0) {
