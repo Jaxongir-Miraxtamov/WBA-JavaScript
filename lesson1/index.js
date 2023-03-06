@@ -26,6 +26,14 @@ console.log(b - a);
 
 console.log(1234567890);
 
+let r = 27;
+let q = 33;
+console.log(r - b);
+
+let p = 81;
+let q = 3;
+console.log(p / q);
+
 // 2 Bigint - oxiriga n qo'shilsa Bigint hisoblanadi
 
 console.log(9007199254740992n);
@@ -62,7 +70,9 @@ console.log(num); // [10, 2, 3]
 let arr = ["Webbrain", +998712222222, true, false];
 console.log(arr);
 
+let Array = ["IT center", +998714444444, true, false];
+console.log(arr);
+
 function name(params) {
   console.log("name");
-
 }
