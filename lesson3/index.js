@@ -1,4 +1,4 @@
-// If,else
+// If,else//Nullish
 
 if ("0") {
   console.log("Hello");
@@ -14,16 +14,16 @@ if (begin == "ECMAScript") {
 
 // Exam2
 
-// let res = prompt("Type is number: ");
-// if (res > 0) {
-//   console.log(1);
-// } else if (res < 0) {
-//   console.log(-1);
-// } else if (res == 0) {
-//   console.log(0);
-// } else {
-//   console.log("Error");
-// }
+let res = prompt("Type is number: ");
+if (res > 0) {
+  console.log(1);
+} else if (res < 0) {
+  console.log(-1);
+} else if (res == 0) {
+  console.log(0);
+} else {
+  console.log("Error");
+}
 
 // Turnry 1
 
