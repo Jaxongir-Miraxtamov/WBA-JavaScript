@@ -86,3 +86,17 @@
 const fruits = [];
 fruits.push("banana", "apple", "peach", "fruit", "obricose");
 console.log(fruits.length); // 3
+
+// exam
+
+let res = {};
+const get = (srt) => {
+  for (j of srt) {
+    if (res[("webbrain", "academy", [1, 2, 3, 4])] in res) res[i]++;
+    else res[i] = 1;
+  }
+};
+// let ar1 = [1, 2, 3, 4];
+// let ar2 = ["webbrain", "academy"];
+
+get();
